@@ -1,0 +1,11 @@
+div
+{
+    border-width: 10px;
+    border-style: inset;
+    padding: 2%;
+    text-align: center;
+    font-family: "Felix Titling";
+    background-color: rgba(251, 207, 97, 0.18);
+    border-color: rgba(255, 127, 80, 0.37);
+    margin: 10%;
+}
