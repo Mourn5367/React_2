@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "DNFBit";
+    src: url("./fonts/DNFBit.ttf");
+}
+@font-face {
+    font-family: "MS_Light";
+    src : url("./fonts/MS_Light.ttf")
+}
+span
+{
+    font-family: 'DNFBit';
+}
+div
+{
+    font-family: 'MS_Light';
+}
