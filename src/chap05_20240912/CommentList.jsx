@@ -18,6 +18,7 @@ const comments = [
     {
         name: "신 창 섭",
         comment: "리부트 정상화",
+        linkText: "https://www.youtube.com/watch?v=6HCZNBEfnao",
         imageUrl: "https://mod-file.dn.nexoncdn.co.kr/profile/717/1724422242502.png"
     },
 ]
