@@ -3,6 +3,10 @@
     src: url("./fonts/DNFBit.ttf");
 }
 @font-face {
+    font-family: "DNFBlade";
+    src: url("./fonts/DNFBladeMedium.ttf");
+}
+@font-face {
     font-family: "MS_Light";
     src : url("./fonts/MS_Light.ttf")
 }

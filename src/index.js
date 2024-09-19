@@ -12,6 +12,8 @@ import ConfirmDialog from "./chap04_20240905/ConfirmDialog";
 //import "./chap04_20240905/Clock.css";
 import Clock from "./chap04_20240905/Clock";
 import {CommentList} from "./chap05_20240912/CommentList";
+//import "./chap06_20240919/Chap06.css";
+import NotificationList from "./chap06_20240919/NotificationList";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // setInterval(()=>{
 // root.render(
@@ -21,7 +23,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // )},34);
 
 root.render(
-    <CommentList/>
+    <NotificationList/>
 );
 
 // If you want to start measuring performance in your app, pass a function
