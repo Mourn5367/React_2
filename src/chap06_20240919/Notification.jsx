@@ -30,7 +30,17 @@ class Notification extends React.Component
         this.state =
         {
 
-        }
+        };
+    }
+
+    componentDidMount() {
+        console.log(`${this.props.id} componentDidMount() called`)
+    }
+    componentDidUpdate() {
+        console.log(`${this.props.id} componentDidUpdate() called`)
+    }
+    componentWillUnmount() {
+        console.log(`${this.props.id} componentWillUnmount() called`)
     }
 
     render() {
@@ -38,6 +48,7 @@ class Notification extends React.Component
             <div className={`wrapper`}>
               <span className={`messageText`}>
                   {this.props.message}
+
                   {this.props.imageUrl && <img src={this.props.imageUrl} alt="Notification" className={`image`} />}
               </span>
             </div>

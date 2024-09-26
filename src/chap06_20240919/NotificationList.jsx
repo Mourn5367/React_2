@@ -4,15 +4,19 @@ import Notification from "./Notification";
 const reserveNotifications =
 [
     {
+        id: 1,
         message: " 바로 ",
     },
     {
+        id: 2,
         message: " 리부트 "
     },
     {
+        id: 3,
         message: " 정 상 화"
     },
     {
+        id: 4,
         imageUrl: "../image/God.png"
     }
 ];
@@ -44,6 +48,9 @@ class NotificationList extends React.Component
             }
             else
             {
+                this.setState({
+                    notifications:[]
+                })
                 clearInterval(timer);
             }
         }
@@ -64,6 +71,8 @@ class NotificationList extends React.Component
                 {
                     this.state.notifications.map((notification) => {
                         return <Notification
+                            key = {notification.id}
+                            id = {notification.id}
                             message = {notification.message}
                             imageUrl = {notification.imageUrl}
                         />
