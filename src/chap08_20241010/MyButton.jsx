@@ -1,6 +1,6 @@
 import React from "react";
 
-// 클래스 필드 문법을 사용하여 bind 문장을 작성하지않는다.
+// 클래스 필드 문법을 사용하여 bind 문장을 작성하지 않는다.
 class MyButton extends React.Component
 {
     constructor(props) {
@@ -17,6 +17,7 @@ class MyButton extends React.Component
     render()
     {
         return(
+            // 달라진 부분
             <button onClick={() => this.handleClick()}>
                 {this.state.isToggleOn ? "켜짐" : "꺼짐"}
             </button>
