@@ -1,6 +1,6 @@
 import React from "react";
 
-function Button(props)
+function Button_1(props)
 {
     return(
         // <button style={{backgroundColor: props.color}}>
@@ -14,4 +14,4 @@ function Button(props)
 
 
 
-export default Button;
+export default Button_1;
