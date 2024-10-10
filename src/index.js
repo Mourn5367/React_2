@@ -16,6 +16,7 @@ import {CommentList} from "./chap05_20240912/CommentList";
 import NotificationList from "./chap06_20240919/NotificationList";
 import Accommodate from "./chap07_20240926/Accommodate";
 import Toggle from "./chap08_20241010/Toggle";
+import MyButton from "./chap08_20241010/MyButton";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // setInterval(()=>{
 // root.render(
@@ -25,7 +26,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // )},34);
 
 root.render(
-    <Toggle/>
+    <MyButton/>
 );
 
 // If you want to start measuring performance in your app, pass a function

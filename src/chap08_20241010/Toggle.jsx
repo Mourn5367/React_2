@@ -1,6 +1,7 @@
 import React from "react";
-import button from "../chap04_20240905/Button";
 
+// 이벤트 처리 함수에서 상태설정을 위해 사용하는 this를 bind 해야만 한다.
+// 바인드 하지 않을 시 this 부분에서 undefined 한다.
 class Toggle extends React.Component
 {
     constructor(props)
@@ -20,7 +21,6 @@ class Toggle extends React.Component
 
         }))
     }
-
     render()
     {
         return(
