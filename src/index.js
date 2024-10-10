@@ -19,6 +19,8 @@ import Toggle from "./chap08_20241010/Toggle";
 import MyButton from "./chap08_20241010/MyButton";
 import ToggleFunc from "./chap08_20241010/ToggleFunc";
 import ClickButton from "./chap08_20241010/ClickButton";
+import Counter from "./chap08_20241010/Counter";
+import InputTest from "./chap08_20241010/InputTest";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // setInterval(()=>{
 // root.render(
@@ -28,7 +30,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // )},34);
 
 root.render(
-    <ClickButton/>
+    <InputTest/>
 );
 
 // If you want to start measuring performance in your app, pass a function
