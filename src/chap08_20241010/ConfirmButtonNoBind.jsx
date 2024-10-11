@@ -11,7 +11,7 @@ class ConfirmButtonNoBind extends React.Component
 
     }
 
-    handleConfirm()
+    handleConfirm = () =>
     {
         this.setState(prevState => ({
             isConfirmed: !prevState.isConfirmed
