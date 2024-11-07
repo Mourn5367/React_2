@@ -4,7 +4,7 @@ import React from "react";
 function LogoutButton(props)
 {
     return(
-        <button onClick={props.Onclick}>로그아웃</button>
+        <button onClick={props.onClick}>로그아웃</button>
     );
 }
 
