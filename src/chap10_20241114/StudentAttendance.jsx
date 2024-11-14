@@ -38,6 +38,9 @@ import React from "react";
 
 function StudentAttendance(props)
 {
+    const students = props.students;
+    //const students = props.students.flat();
+    //2차원으로 오면 이렇게 풀어주면됨
     return(
         <div>
             <h1>학생 출석부</h1>
