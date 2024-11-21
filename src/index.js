@@ -23,6 +23,21 @@ import Counter from "./chap08_20241010/Counter";
 import InputTest from "./chap08_20241010/InputTest";
 import ConfirmButton from "./chap08_20241010/ConfirmButton";
 import ConfirmButtonFunction from "./chap08_20241010/ConfirmButtonFunction";
+import Test from "./test/Test";
+import TTT from "./test/TTT";
+import LoginControl from "./chap09_20241107/LoginControl";
+import MailBox from "./chap09_20241107/MailBox";
+import LoginControl2 from "./chap09_20241107/LoginControl2";
+import LandingPage from "./chap09_20241107/LandingPage";
+import AppNumberList from "./chap10_20241114/AppNumberList";
+import StudentAttendance from "./chap10_20241114/StudentAttendance";
+import AppStudentAttendance from "./chap10_20241114/AppStudentAttendance";
+import AttendanceCard from "./chap10_20241114/avartarAttendance/AttendanceCard";
+import NameForm from "./chap11_20241121/NameForm";
+import RequestForm from "./chap11_20241121/RequestForm";
+import NameRequestForm from "./chap11_20241121/NameRequestForm";
+import SignUp from "./chap11_20241121/SignUp";
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // setInterval(()=>{
 // root.render(
@@ -31,8 +46,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 //   </React.StrictMode>
 // )},34);
 
+
 root.render(
-    <ConfirmButtonFunction/>
+    <React.StrictMode>
+    <SignUp/>
+    </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
