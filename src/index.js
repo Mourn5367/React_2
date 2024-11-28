@@ -37,6 +37,11 @@ import NameForm from "./chap11_20241121/NameForm";
 import RequestForm from "./chap11_20241121/RequestForm";
 import NameRequestForm from "./chap11_20241121/NameRequestForm";
 import SignUp from "./chap11_20241121/SignUp";
+import Writing from "./writing/writing";
+import Calculator from "./chap12_20241128/Calculator";
+import Calculator2 from "./chap12_20241128/Calculator2";
+import Calculator3 from "./chap12_20241128/Calculator3";
+import DistanceConverter from "./chap12_20241128/distance/DistanceConverter";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // setInterval(()=>{
@@ -49,7 +54,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
     <React.StrictMode>
-    <SignUp/>
+    <DistanceConverter/>
     </React.StrictMode>
 );
 
