@@ -1,0 +1,33 @@
+/* 전체 컨테이너 */
+.main-content-container {
+    display: flex;
+    gap: 20px; /* 좌우 간격 */
+    margin: 20px auto; /* 전체를 가운데 정렬 */
+    max-width: 1200px; /* 최대 너비 설정 */
+}
+
+/* 왼쪽 열 */
+.left-column {
+    flex: 2; /* 왼쪽 열이 더 넓게 */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* 오른쪽 열 */
+.right-column {
+    flex: 1; /* 남은 공간을 채움 */
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* 전체 너비를 채움 */
+    align-items: stretch;
+}
+/* 오른쪽 상단 (BannerContainer) */
+.top-right {
+    flex: 1;
+}
+
+/* 오른쪽 하단 (Side) */
+.bottom-right {
+    flex: 1;
+}

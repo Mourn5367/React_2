@@ -1,0 +1,61 @@
+/* 사이드바 스타일 */
+/*@font-face {*/
+/*    font-family: "DNFBlade";*/
+/*    src: url("../../fonts/DNFBladeMedium.ttf");*/
+/*}*/
+.test{
+    position: fixed;
+    height: 100px;
+}
+
+.sidebar1 {
+    background-color: #27282e;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 10px 20px 20px 20px;
+    width: 380px; /* 사이드바 너비 설정 */
+    max-width: 390px;
+    z-index: 1000; /* 다른 콘텐츠보다 앞에 위치하도록 */
+    margin: 10px 0 0 10px;
+    text-align: left;
+
+}
+.cafe-info1 {
+    /*border-bottom: 1px solid #e5e5e5;*/
+}
+
+.cafe-name1 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin: 10px 0px 10px;
+}
+
+.member-count1 {
+    color: #666;
+    font-size: 13px;
+}
+
+
+.menu-list1{
+    margin: 0;
+    padding: 0;
+}
+
+.menu-list1 li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.menu-list1 span {
+    color: #666;
+
+}
+
+.li-with-border {
+    border-bottom: 1px solid #7e7d7d;
+}
